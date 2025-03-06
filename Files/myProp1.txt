@@ -1,0 +1,8 @@
+create or replace procedure pro(a in int, b in int, c out int, d out int, e out int, f out int)is
+Begin
+c:= a+b;
+d:= a-b;
+e:= a*b;
+f:= a/b;
+end;
+/
